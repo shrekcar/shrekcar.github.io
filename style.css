@@ -3,6 +3,7 @@ a {
     }
     body {
         background-size: cover;
+        margin: 0px;
     }
     li {
     list-style-type: none;
@@ -28,7 +29,7 @@ a {
         padding: 0 0 20px 0;
         position: relative; 
         text-transform: uppercase;    
-        color: #000;
+        color: #000000;
         font-weight: bold;
         letter-spacing: 0.2px;
         font-size: 15px;
@@ -41,7 +42,7 @@ a {
     .main-menu > li > a:after {
         width: 0;
         height: 3px;
-        background: linear-gradient(90deg, rgba(0,146,255,1) 0%, rgba(2,28,119,1) 25%, rgba(42,0,255,1) 50%, rgba(141,0,255,1) 100%);
+        background:rgba(0,146,255,1);
         content: '';
         left: 0;
         bottom: 10px;
@@ -65,7 +66,7 @@ a {
     .main-menu li.menu-children:after {
         position: absolute; 
         content: "\2039";
-        color:linear-gradient(90deg, rgba(0,146,255,1) 0%, rgba(2,28,119,1) 25%, rgba(42,0,255,1) 50%, rgba(141,0,255,1) 100%);
+        color: rgba(0,146,255,1);
         font-size: 20px;
         font-weight: bold;
         right: -12px;
@@ -130,11 +131,11 @@ a {
         width: 650px;
         border-top: 7px solid rgb(43, 129, 17);
         border-collapse: collapse;
-        text-align: center;
+        margin: auto;
         margin-bottom: 20px;
         border: 1px solid #dddddd;
+        margin-top: 30px;
       }
-      
       td {
         text-align: left;
           padding: 10px;
