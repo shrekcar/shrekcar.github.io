@@ -70,7 +70,25 @@
 	color: #ffffff; 
 }
 .powered {display:none} 
-
+table {
+        width: 650px;
+        border-top: 7px solid rgb(43, 129, 17);
+        border-collapse: collapse;
+        margin: auto;
+        margin-bottom: 20px;
+        border: 1px solid #dddddd;
+        margin-top: 30px;
+      }
+      td {
+        text-align: left;
+          padding: 10px;
+          border: 3px solid rgb(43, 129, 17);
+      }
+       th {
+        text-align: center;
+        padding: 10px;
+          border: 3px solid rgb(43, 129, 17);
+       }
 </style>
 <body>
     <ul class="main-menu">
@@ -78,12 +96,12 @@
             <li class="menu-children">
             <a href="#url">Услуги</a>
                 <ul>
-                    <li><a href="">Доставка еды</a></li>
                     <li class="menu-children">
                         <a href="">Билеты на</a>
                         <ul>
                             <li><a href="train.html">Поезд</a></li>
                             <li><a href="plane.html">Самолёт</a></li>
+                            <li><a href="ship.html">Круиз</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -92,7 +110,30 @@
         <li><a href="gallery.html">Фотогалерея</a></li>
         <li><a href="contacts.html">Контакты</a></li>        
     </ul>
-    <div class="sur"></div>
+    <div> </div>
+<div class="sur"></div>
+    <table>
+        <tr>
+            <td>Путь</td>
+            <td>Цена</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Москва - Сочи</td>
+            <td>20 959 ₽</td>
+            <td><a class="btn-ens-action btn-ens-style" data-rel="db0bba63338216">Купить</a></td>
+        </tr>
+        <tr>
+            <td>Москва - Санкт-Петербург</td>
+            <td>12 299 ₽</td>
+            <td><a class="btn-ens-action btn-ens-style" data-rel="db0bba63338217">Купить</a></td>
+        </tr>
+        <tr>
+            <td>Москва - Казань</td>
+            <td>4 399 ₽</td>
+            <td><a class="btn-ens-action btn-ens-style" data-rel="db0bba63338218">Купить</a></td>
+        </tr>
+    </table>
 
     <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-db0bba63.js"></script>    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
