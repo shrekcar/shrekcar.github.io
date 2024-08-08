@@ -70,25 +70,20 @@
 	color: #ffffff; 
 }
 .powered {display:none} 
-table {
-        width: 650px;
-        border-top: 7px solid rgb(43, 129, 17);
-        border-collapse: collapse;
-        margin: auto;
-        margin-bottom: 20px;
-        border: 1px solid #dddddd;
-        margin-top: 30px;
-      }
-      td {
-        text-align: left;
-          padding: 10px;
-          border: 3px solid rgb(43, 129, 17);
-      }
-       th {
-        text-align: center;
-        padding: 10px;
-          border: 3px solid rgb(43, 129, 17);
-       }
+.semilayer {
+    background: #a1e2be; /* Цвет фона */
+    margin: 0 auto; /* Выравниваем слой по центру */
+    width: 80%; /* Ширина слоя */
+    opacity: 0.7; /* Значение прозрачности */
+    border-radius: 20px;
+   }
+   .ppp{
+    font-size: 2em;
+    text-align: center;
+   }
+   .content{
+    display: flex;
+   }
 </style>
 <body>
         <ul class="main-menu">
@@ -106,35 +101,13 @@ table {
                         </li>
                     </ul>
                 </li>
-            <li><a href="#url">Новости</a></li>
-            <li><a href="#url">Фотогалерея</a></li>
-            <li><a href="#url">Контакты</a></li>        
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="gallery.html">Фотогалерея</a></li>
+            <li><a href="contacts.html">Контакты</a></li>        
+            <li><a href="comments.html">Отзывы</a></li>
         </ul>
-    <div> </div>
-<div class="sur"></div>
-    <table>
-        <tr>
-            <td>Путь</td>
-            <td>Цена</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Москва - Санкт-Петербург</td>
-            <td>8 188 ₽</td>
-            <td><a class="btn-ens-action btn-ens-style" data-rel="db0bba63338213">Купить</a></td>
-        </tr>
-        <tr>
-            <td>Москва - Казань</td>
-            <td>1 856 ₽</td>
-            <td><a class="btn-ens-action btn-ens-style" data-rel="db0bba63338214">Купить</a></td>
-        </tr>
-        <tr>
-            <td>Москва - Тула</td>
-            <td>1 613 ₽</td>
-            <td><a class="btn-ens-action btn-ens-style" data-rel="db0bba63338215">Купить</a></td>
-        </tr>
-    </table>
-
+    <div class="sur"></div>
+    <p class="ppp">Здесь будут появляться новости о Shrek Transport Company</p>
     <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-db0bba63.js"></script>    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
